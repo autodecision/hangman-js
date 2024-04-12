@@ -848,5 +848,3 @@ let words = [
   "yesterday",
   "you",
 ];
-
-export default words;
