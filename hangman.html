@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hangman</title>
+        <link rel="stylesheet" href="hangman.css">
+    </head>
+    <body>
+        <h1>Welcome to Hangman.js</h1>
+        <h2>Guess the word</h2>
+        <canvas height="200px" width="250px"></canvas>
+        <p id="word"></p>
+        <p>Used letters: <span id="used"></span></p>
+        <input id="input" type="text" /><button id="guess">Guess!</button>
+        <div class="hidden">
+            <button id="restart">Would you like to play again?</button>
+        </div>
+        <script type="module" src="hangman.js"></script>
+    </body>
+</html>
